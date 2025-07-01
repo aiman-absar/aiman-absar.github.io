@@ -1,0 +1,98 @@
+baseURL = "https://aiman-absar.github.io/"
+languageCode = "en-us"
+title = "Aiman Absar"
+theme = "hugo-profile"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+
+
+[params]
+  title = "Aiman Absar"
+  description = "Quantitative Economist and Researcher"
+
+  [params.search]
+  enable = false
+
+[params.hero]
+  enable = true
+  name = "Aiman Absar"
+  subtitle = "Quantitative Economist, Data Wrangler"
+  image = "images/left.jpg"
+
+  
+
+  content = '''
+
+
+
+<p>I completed my B.A. in Mathematics and Economics from <a href="https://www.reed.edu/">Reed College</a> in Portland, Oregon. My thesis focused on game theory and its contributions to behavioral economics. Shortly after graduation, I went on to work at <a href="https://www.mresearch.com/">McCullough Research</a>. My projects varied in both scope and domain — from building hydro models using historical data, to providing expert opinion on potential price gouging in the Southern California gasoline market. During my tenure there, I co-authored two papers: <a href="https://www.mresearch.com/is-existing-coal-actually-cost-effective-in-the-presence-of-falling-renew-able-prices/"> evaluating the economics</a>  of keeping old coal generators in business and <a href="https://www.sciencedirect.com/science/article/pii/S1040619020301111">inefficient procurement</a> in PJM's capacity market.</p>
+<p> Currently completing my M.Sc. in Quantitative Economics from <a href="https://www.gsefm.eu/about-us.html">GSEFM</a>, a graduate program under Goethe Universität Frankfurt. During my time here, I grew interested in monetary policy and the bond market.</p>
+
+  <p>During my program, I worked at the <a href="https://www.zew.de/">Leibniz Centre for European Economic Research</a> in Mannheim, Baden-Württemberg — starting in the department of Corporate Taxation and Public Finance as a Research Assistant. In the first two years, I worked on a project investigating collusion in the procurement of government contracts. In my final semester, I joined the department of Market Design, focusing on creating more efficient power markets aligned with Germany’s goal of full decarbonization by 2050, eventually writing my master thesis on this topic.</p>
+
+<div style="margin-top: 1.5rem;">
+  <img src="/images/logos/python.svg" alt="Python" style="height: 32px; margin-right: 8px;" />
+  <img src="/images/logos/r.svg" alt="R" style="height: 32px; margin-right: 8px;" />
+  <img src="/images/logos/stata.svg" alt="Stata" style="height: 32px; margin-right: 8px;" />
+  <img src="/images/logos/sql.svg" alt="SQL" style="height: 32px; margin-right: 8px;" />
+  <img src="/images/logos/git.svg" alt="Git" style="height: 32px; margin-right: 8px;" />
+  <img src="/images/logos/excel.svg" alt="Excel" style="height: 32px;" />
+</div>
+
+
+<p>I am proficient in Python, R, Stata, and inferential statistics such as regression analysis, hypothesis testing, sampling, and estimation. In my spare time, I like to create small apps for my own use (such as a frequency-based approach to learning <a href="https://aiman-absar.github.io/german-practice-app/">German vocabulary</a>).</p>
+
+
+<p>My research interests include experimental and behavioural economics, asset pricing, derivatives, market inefficiencies, and the role of bond markets in the global economy. I’m currently pondering two big questions:</p>
+
+<div style="font-family: 'Alata', sans-serif; font-size: 1rem; line-height: 1.6;">
+    <p><strong>Are bond markets like prediction markets?</strong><br>
+    Prediction markets have <a href="https://www.youtube.com/watch?v=ngX1nIvnMOM">historically outperformed</a> polls for presidential elections since polls were a thing. Economists have started incorporating these results into <a href="https://www.nber.org/papers/w33339">polling data</a>. When US President Donald Trump imposed tariffs at the beginning of 2025, everyone, including close allies such as Elon Musk pleaded with him to rescind them. Trump listened to no one — no one that is, except for <a href="https://www.youtube.com/watch?v=5vB8wB1lDF0&t=281s">bond vigilantes</a>. Yield on long-term treasuries went up, and Trump blinked. Bond markets are the most sensitive tool in the Fed's toolbox for investor sentiment, and they respond almost instantaneously. Bond market trends convey whether bond holders predict a recession. Given the enormous size of the US economy's debt, bond market whales have a lot of leverage in influencing even the highest office in the land. Short answer: of course they are. But the insidious issue is how money invested into the prediction markets are able to swing the odds.</p>
+</div>
+
+<div style="font-family: 'Alata', sans-serif; font-size: 1rem; line-height: 1.6;">
+    <p><strong>What would it take for the Euro to replace the US Dollar as the world reserve currency?</strong><br> 
+    On the face of it, a lack of a general EU bond, low availability of German bonds compared to US ones, as well as the fact that it would require a complete overhaul of the financial order, make it very unlikely. Then again, how long will the world economy go along with the whims of the US? As US politics becomes more and more unstable, world leaders might consider this question more seriously.</p>
+</div>
+  '''
+
+  [params.hero.button]  
+  enable = true
+  name = "📄 View CV"
+  url = "/pdf/CV.pdf"
+
+
+
+
+[params.about]
+  enable = true
+  title = "About Me"
+  image = "images/right.jpg"
+  imageWidth = 50
+  imageHeight = 50
+  content = '''
+  <div style="font-family: 'Alata', sans-serif;">
+    <p>A bit about me, if you are curious. I grew up in Dhaka, Bangladesh, among the last in the cohort of millennials. I moved to Portland, OR after high school to pursue a degree in Physics. In my junior year, I took a game theory class that changed my trajectory in life.</p>
+    <p>I started a company making <a href="https://www.reed.edu/reed-magazine/articles/2016/absar-physics-brick.html">bricks</a>, with funding from Microsoft and HP.</p>
+    <p>I enjoy bridging topics from different fields — such as applying concepts like entropy and chaos theory to the stock market — and finding ways to combine micro- and macroeconomics into one grand unified theory. You can take the man out of physics, but you can't get the physics out of the man.</p>
+    <p>Currently based in Frankfurt, Germany. In my spare time, I play historical grand strategy games, play the guitar, argue bad ad-hoc hypotheses, and brainstorm business ideas.</p>
+    <p>Get in touch: <a href="mailto:aiman.absar@protonmail.com">aiman.absar@protonmail.com</a>  <p>
+    <p> <a href="tel:+4917666417896">+49 176 664 178 96</a></p>
+    <p>  <a href="https://www.linkedin.com/in/aiman-absar">Linkedin</a></p>
+  </div>
+  '''
+
+
+[params.contact]
+  enable = false
+  email = "aiman.absar@protonmail.com"
+
+  [params.contact.button]
+    enable = false
+    name = "🔗 LinkedIn"
+    url = "https://www.linkedin.com/in/aiman-absar"
